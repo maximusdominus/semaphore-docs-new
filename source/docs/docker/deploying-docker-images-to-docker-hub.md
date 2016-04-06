@@ -25,21 +25,21 @@ You should definitely set up Docker Hub integration if you are planning on:
 This can be done by visiting your project on Semaphore and clicking "Add-ons"
 at the upper right corner of your screen.
 
-###### "Add-ons link" screenshot
+<img src="" class="img-responsive img-bordered" alt="Click Project Add-ons">
 
 Next, click "Docker integrations".
 
-###### "Docker integrations" screenshot
+<img src="" class="img-responsive img-bordered" alt="Click Docker integrations">
 
 Choose "Docker Hub" integration.
 
-###### "Docker Hub integration" screenshot
+<img src="" class="img-responsive img-bordered" alt="Click Docker Hub integration">
 
-Then you will be prompted with two input fields requiring
-your username and password for Docker Hub. Please input these and test if your
-credentials are valid by clicking "Test" button.
+Then you will be prompted with two input fields requiring your `Username` and
+`Password` for Docker Hub. Please input these and test if your credentials are
+valid by clicking the "Test" button.
 
-###### "Docker Hub credentials" screenshot
+<img src="" class="img-responsive img-bordered" alt="Successful connection test and Save">
 
 If the credentials you provided are valid, click "Save". You can now push or
 pull images on Docker Hub through Semaphore.

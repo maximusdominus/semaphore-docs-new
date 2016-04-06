@@ -46,7 +46,7 @@ it will recognize presence of your `Dockerfile` or `docker-compose.yml`. This
 will generate a set of working build commands depending on your project's
 programming language which you will see later on.
 
-###### "Analysis results" screenshot
+<img src="" class="img-responsive img-bordered" alt="Analysis results">
 
 Next, Semaphore will prompt you to choose a platform for you project based on
 the project analysis. If you have `Dockerfile` or `docker-compose.yml` in your
@@ -54,7 +54,7 @@ project, Semaphore will preselect the platform with Docker support enabled.
 Click on "Docker" option. You can change the platform later on the project's
 settings page.
 
-###### "Docker platform" sceenshot
+<img src="" class="img-responsive img-bordered" alt="Choose Docker platform">
 
 Once you have chosen a platform, you can add your container registry host.
 We support:
@@ -68,7 +68,7 @@ We support:
 This step is optional, so if you don't use any of the above, you can click
 "Skip this step".
 
-###### "Container registry hosts" screenshot
+<img src="" class="img-responsive img-bordered" alt="Container Registry Hosts list">
 
 If your project needs to run commands that are different from what Semaphore has
 suggested, just use the commands editor to customize them for your needs.

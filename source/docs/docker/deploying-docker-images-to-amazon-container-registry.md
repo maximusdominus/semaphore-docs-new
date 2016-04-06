@@ -27,15 +27,15 @@ are planning on:
 This can be done by visiting your project on Semaphore and clicking "Add-ons"
 at the upper right corner of your screen.
 
-###### "Add-ons link" screenshot
+<img src="" class="img-responsive img-bordered" alt="Click Project Add-ons">
 
 Next, click "Docker integrations".
 
-###### "Docker integrations" screenshot
+<img src="" class="img-responsive img-bordered" alt="Click Docker integrations">
 
 Choose "Amazon EC2 Container Registry (ACR)" integration.
 
-###### "Amazon EC2 Container Registry (ACR)" screenshot
+<img src="" class="img-responsive img-bordered" alt="Click Amazon Container Registry (ACR)">
 
 Then you will be prompted with three input fields requiring
 your:
@@ -53,7 +53,7 @@ for Semaphore.
 After you have copied contents, you can click "Test" to see if everything is
 OK. If the test is successful you can click "Save".
 
-###### "ACR credentials" screenshot
+<img src="" class="img-responsive img-bordered" alt="Successful connection test and Save">
 
 If the credentials you provided are valid, your ACR integration will be saved.
 You can now push or pull images on Amazon Container Registry through Semaphore.
