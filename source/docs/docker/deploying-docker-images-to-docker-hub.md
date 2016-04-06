@@ -19,11 +19,11 @@ your project.
 
 You should definitely set up Docker Hub integration if you are planning on:
 
- - **pulling Docker images** from a private Docker Hub repository,
- - **pushing Docker images** to Docker Hub.
+  - **pulling Docker images** from a private Docker Hub repository,
+  - **pushing Docker images** to Docker Hub.
 
 This can be done by visiting your project on Semaphore and clicking "Add-ons"
-at the bottom right corner of your screen.
+at the upper right corner of your screen.
 
 ###### "Add-ons link" screenshot
 
@@ -37,11 +37,11 @@ Choose "Docker Hub" integration.
 
 Then you will be prompted with two input fields requiring
 your username and password for Docker Hub. Please input these and test if your
-credentials are valid by clicking "Test and Save" button.
+credentials are valid by clicking "Test" button.
 
 ###### "Docker Hub credentials" screenshot
 
-If the credentials you provided are valid, your Docker Hub integration will be
-saved. You can now push or pull images on Docker Hub through Semaphore.
+If the credentials you provided are valid, click "Save". You can now push or
+pull images on Docker Hub through Semaphore.
 
 Happy building!

@@ -21,11 +21,11 @@ your project.
 You should definitely set up Amazon EC2 Container Registry (ACR) integration if you
 are planning on:
 
- - **pulling Docker images** from ACR repository,
- - **pushing Docker images** to ACR repository.
+  - **pulling Docker images** from ACR repository,
+  - **pushing Docker images** to ACR repository.
 
 This can be done by visiting your project on Semaphore and clicking "Add-ons"
-at the bottom right corner of your screen.
+at the upper right corner of your screen.
 
 ###### "Add-ons link" screenshot
 
@@ -40,9 +40,9 @@ Choose "Amazon EC2 Container Registry (ACR)" integration.
 Then you will be prompted with three input fields requiring
 your:
 
- - `AWS Access Key ID`,
- - `AWS Secret Access Key`,
- - `AWS Region` - region where your repository resides.
+  - `AWS Access Key ID`,
+  - `AWS Secret Access Key`,
+  - `AWS Region` - region where your repository resides.
 
 You can find instructions for managing AWS credentials at
 [their documentation](http://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html).
@@ -50,11 +50,12 @@ You should also consider making an
 [IAM user](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
 for Semaphore.
 
-After you have provided your credentials, you can click "Test and save".
+After you have copied contents, you can click "Test" to see if everything is
+OK. If the test is successful you can click "Save".
 
 ###### "ACR credentials" screenshot
 
-If the credentials you provided are valid, your ACR integration will be
-saved. You can now push or pull images on Docker Hub through Semaphore.
+If the credentials you provided are valid, your ACR integration will be saved.
+You can now push or pull images on Amazon Container Registry through Semaphore.
 
 Happy building!
