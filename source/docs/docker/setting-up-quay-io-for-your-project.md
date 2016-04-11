@@ -1,26 +1,24 @@
 ---
 layout: post
-title: Deploying Docker images to Quay.io
+title: Setting up Quay.io for your project
 category: Docker
 ---
 
 [Quay.io](https://quay.io/) is a cloud hosted service for your Docker images.
-Focus is on user experience for developers that are pushing and pulling images
-from **Quay.io**. If you don't own an account at Quay.io, you can
+If you don't have an account at Quay.io, you can
 [try it for free](https://quay.io/plans/?trial-plan=free).
 
-Integrating your **Semaphore account** with **Quay.io** is very easy and it
-will take a minute of your time.
+Integrating **Quay.io** with **Semaphore** is intuitive and simple, and it
+will take only a few clicks.
 
-If you haven't set up your project as a **Docker project**, you should consult
+In order to have **Docker Registry integrations**, you should set up your
+project as a Docker project. More on setting up your project is in
 [Setting up a continuous integration for a Docker project on Semaphore](/docs/docker/setting-up-continuous-integration-for-docker-project.html)
-page in our documentation in order to have Docker integrations available for
-your project.
+documentation page.
 
-You should definitely set up Quay.io integration if you are planning on:
-
-  - **pulling Docker images** from Quay.io registry,
-  - **pushing Docker images** to Quay.io registry.
+Configuring the **Quay.io** project add-on will enable you to **push** and
+**pull** Docker images without you having to login to Quay.io during builds
+and deployments.
 
 This can be done by visiting your project on Semaphore and clicking "Add-ons"
 at the upper right corner of your screen.

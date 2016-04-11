@@ -1,26 +1,25 @@
 ---
 layout: post
-title: Deploying Docker images to Docker Hub
+title: Setting up Docker Hub for your project
 category: Docker
 ---
 
 [Docker Hub](https://hub.docker.com/) is a cloud hosted service for your Docker
-images. You can effortlessly share Docker images on Docker Hub and make them
-public or private. You can [sign up](https://hub.docker.com/) for an account if
-you don't have one.
+images. You can [sign up](https://hub.docker.com/) for an account if you don't
+have one already.
 
-Integrating your **Semaphore account** with **Docker Hub** is very easy and it
-will take a minute of your time.
+Configuring your **Semaphore account** with **Docker Hub** smooth and fast and
+it will last a minute of your time.
 
-If you haven't set up your project as a **Docker project**, you should consult
+Project that is set up as a **Docker** project will have Docker container
+registry integrations in project add-ons. To set up your project as a Docker
+project, please look into
 [Setting up a continuous integration for a Docker project on Semaphore](/docs/docker/setting-up-continuous-integration-for-docker-project.html)
-page in our documentation in order to have Docker integrations available for
-your project.
+page in our documentation.
 
-You should definitely set up Docker Hub integration if you are planning on:
-
-  - **pulling Docker images** from a private Docker Hub repository,
-  - **pushing Docker images** to Docker Hub.
+Configuring the Docker Hub project add-on will enable you to **push** and
+**pull** your images without explicitly having to login to Docker Hub during
+builds and deployments, thus making your CI and CD process painless.
 
 This can be done by visiting your project on Semaphore and clicking "Add-ons"
 at the upper right corner of your screen.
